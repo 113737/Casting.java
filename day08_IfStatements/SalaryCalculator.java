@@ -6,7 +6,7 @@ public class SalaryCalculator {
         int hourlyRate = 50,
                 weeklyHours = 45;
 
-        double stateTaxRate = 6.5,
+        double stateTaxRate = 0,
                 federalTaxRate = 26.2;
 
         //--------------------------------------
