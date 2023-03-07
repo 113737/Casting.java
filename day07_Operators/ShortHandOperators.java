@@ -22,8 +22,11 @@ public class ShortHandOperators {
         
         word= "Cydeo";
         System.out.println("word = " + word);
-        
-             
+
+        //word = 123;
+        word = "Java Programming";
+
+        System.out.println("word = " + word);
 
     }
 }
