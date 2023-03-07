@@ -101,7 +101,17 @@ public class ShortHandOperators {
 
         System.out.println("---------------");
 
-        int x = 300;
+        int y = 300;
+        y %=16;
+        System.out.println("y = " + y);
+
+        System.out.println("---------------");
+
+        int balance = 3500;
+        //insurance fee: $153
+        balance%= 153;
+        System.out.println("balance = " + balance);
+
 
 
     }
