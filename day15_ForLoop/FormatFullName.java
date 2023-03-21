@@ -5,7 +5,7 @@ public class FormatFullName {
     public static void main(String[] args) {
         String firstName =  "cyDEo",
                 lastName = "SCHOOL";
-                lastName = ;
+
 
 
         // firstName= firstName.substring(0, 1).toUpperCase() + firstName.substring(1).toLowerCase();
