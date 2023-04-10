@@ -1,6 +1,6 @@
 package day25_CusomMethod_Overloading;
 
-import Utilities.StringUtility;
+import utilities.StringUtility;
 
 public class Test {
 
