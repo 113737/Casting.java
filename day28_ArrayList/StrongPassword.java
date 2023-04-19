@@ -50,6 +50,12 @@ public static boolean isStrongPassword(String password){
         }else{ // special char
             r4 = true;
         }
+      /*  if (r2 && r3 && r4 && r5){
+            break;
+        }
+
+       */
+
 
     }
     boolean isStrongPassword = r1 && r2 && r3 && r4 && r5;

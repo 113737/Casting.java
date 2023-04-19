@@ -24,6 +24,32 @@ public class StrongPassword2 {
             }
         }
 
+        System.out.println("countSpecialChar = " + countSpecialChar);
+        System.out.println("countDigits = " + countDigits);
+        System.out.println("countLowerCase = " + countLowerCase);
+        System.out.println("countUpperCase = " + countUpperCase);
 
+        boolean hasUpperCase=countUpperCase>0;
+        boolean hasLowerCase=countLowerCase>0;
+        boolean hasDigit= countDigits>0;
+        boolean hasSpecialChar= countSpecialChar>0;
+
+       boolean strongPassword= password.length()>=8 && !password.contains(" ")&& hasSpecialChar && hasDigit&& hasLowerCase &&hasUpperCase;
+
+       if (password.length()>=8){
+           if (!password.contains(" ")){
+               if (hasUpperCase){
+                   if (hasLowerCase){
+                       if (hasDigit){
+                           if (hasSpecialChar){
+                               strongPassword=true;
+                           }
+                       }
+                   }
+               }
+           }
+       }
+
+        System.out.println("strongPassword = " + strongPassword);
     }
 }
