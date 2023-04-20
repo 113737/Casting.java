@@ -22,13 +22,13 @@ public class UniqueElements {
         System.out.println(unique);
 
         System.out.println("-----------------------------------------");
-        ArrayList<Integer>list2= new ArrayList<>();
-        list.addAll(Arrays.asList(1,1,2,3,3,4,5,5,6,7,7,8,9,9));
+        ArrayList<Integer> list2 = new ArrayList<>();
+        list2.addAll(Arrays.asList(1,1,2,3,3,4,5,5,6,7,7,8,9,9));
 
-        ArrayList<Integer> unique2 = new ArrayList<>(list2);
-        unique2.removeIf(p-> Collections.frequency(list2,p)>1);
+        ArrayList<Integer> unique2 = new ArrayList<>(list2); //add all the elements of list2
+
+        unique2.removeIf( p ->  Collections.frequency(list2, p) > 1 );
 
         System.out.println("unique2 = " + unique2);
-
     }
 }
