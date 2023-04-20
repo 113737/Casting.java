@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 
-public class NthlargestNumber {
+public class NthLargestNumber {
 
     public static void main(String[] args) {
         ArrayList<Integer>list= new ArrayList<>();
